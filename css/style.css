@@ -1,0 +1,123 @@
+.navbar-custom {
+	background: #000026;
+	border-color: #000000;
+}
+.navbar-brand.navbar-brand-custom{
+	color: #ffffff;
+	font-family: 'Suez One', serif;
+	font-size: 25px;
+}
+.nav.navbar-nav.navbar-right li a{
+	color: #ffffff;
+	font-weight: bold;
+	
+}
+.navbar-toggle i{
+	color: #ffffff;
+}
+#page-top{
+	padding-top: 86px;
+	font-family: 'Suez One', serif;
+	color: #ffffff;
+	background: #20B2AA;
+}
+.social{
+	font-size: 3em;
+}
+
+.parent {
+  position: relative;
+  width: 70%;
+  margin: -10% auto 0 auto; /* positioning tweak */
+}
+
+.parent:before {
+  content: "";
+  display: block;
+  padding-top: 61.37%; 
+}
+
+.ryu {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  
+  background:  url('http://bennet.org/images/codepen/ryu-sprite-demo.png') no-repeat 0 0%;
+  background-size: 100%;
+  animation: sprite 3.5s steps(45) infinite;
+}
+
+@keyframes sprite {
+  from { background-position: 0 0%; }
+  to { background-position: 0 100%; }
+}
+
+.masthead-custom{
+	background: #111;
+	perspective: 200px;
+	overflow: hidden;
+	height:700px;
+}
+
+
+#about{
+	margin: 0 auto;
+	color: #fcd000;
+	font-size: 30px;
+	font-weight: bold;
+	width: 100%;
+	display: block;
+    text-align: center;
+	transform: rotateX(30deg);
+	animation: animateCrawl 30s ease-in infinite;
+	margin-bottom: 20px;
+	
+}
+
+@keyframes animateCrawl {
+ 0% { transform: rotateX(30deg) translateY(400px); }
+ 100% { transform: rotateX(30deg) translateY(-300px); }
+}
+
+#portfolio{
+	font-family: 'Suez One', serif;
+}
+
+#contact{
+	font-family: 'Suez One', serif;
+	height: 700px;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #000026;
+   color: white;
+   text-align: center;
+   font-family: 'Suez One', serif;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #000026;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 100px;
+  font-family: 'Suez One', serif;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
